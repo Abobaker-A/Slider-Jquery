@@ -1,0 +1,21 @@
+.item-caption {
+  bottom: 10px;
+  left: 12.5%;
+}
+.item {
+  cursor: pointer;
+}
+#lightboxCon {
+  display: none;
+}
+#lightboxitem {
+  background-image: url(../Img/20190227_200859..JPG);
+  background-size: 100% 100%;
+}
+#lightboxitem i {
+  cursor: pointer;
+}
+
+.item img.active {
+  border: 3px solid rgb(173, 27, 27);
+}
